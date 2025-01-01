@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    color: #333;
+}
+
+
+.navigation-menu {
+    border: 1px solid black;
+    /* margin: 100px */
+}
+
+.menu-contents {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    width:100px;
+}
+
+header {
+    background-color: grey;
+}
+
+/*========================================
+    ナビゲーション
+  
+#top-nav{
+    float:right; 
+    position: relative;
+}
+
+#top-nav ul li {
+    float: right;
+  }
+========================================*/
+
+.nav-container {
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    border: 1px solid black;
+    width:200px;
+    margin: 20px;
+    padding: 10px;
+
+    flex: 1;
+}
